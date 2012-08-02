@@ -10,7 +10,3 @@ Initial Inertia in Rapid Prototyping, or; How To Build A Sophisticated Rails App
 - Fit 'host: localhost' into db/database under 'test:' & 'production:'
 - Note: Heroku is gonna throw database.yml away & use its own settings.
 - Execute "$ rake db:create:all" to create your psql databases.
-### Use a tight testing suite from the start
-- Like this
-### Don't reinvent the wheel: Devise, CanCan & Bootstrap
-- Some are harder than others to remove later.
