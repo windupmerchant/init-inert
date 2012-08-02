@@ -76,4 +76,5 @@ Let [Devise](https://github.com/plataformatec/devise/) & [CanCan](https://github
           config.assets.initialize_on_precompile = false
 
 - Run `$ rails generate devise MODEL` to generate your first type of user.
-- run `$ rails generate cancan:ability` 
+- Run `$ rake db:migrate`
+- Run `$ rails generate cancan:ability` AND then edit the resulting file so that it refers to your devise MODEL, and [grants it appropriate permissions](https://github.com/ryanb/cancan/wiki/defining-abilities).
