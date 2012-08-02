@@ -1,6 +1,6 @@
 Initial Inertia in Rapid Prototyping, or; How To Build A Sophisticated Rails App, By Starting Off On The Right Foot, or; How To Win A WebApp Hackathon
 ===================================================================================================================
-*Do not be misled; these checklists are not 
+*...do not be misled; these checklists are not a replacement for reading the DOC.*
 Use postgresql from the start, for Heroku compatibility.
 --------------------------------------------------------
 
@@ -32,7 +32,7 @@ Use Powder
 Use [Rspec](https://github.com/rspec/rspec-rails/), [Fabrication](https://github.com/paulelliott/fabrication/) w/ [fFaker](http://faker.rubyforge.org/rdoc/) & [Capybara](https://github.com/jnicklas/capybara/) for solid TDD utility.
 ---------------------------------------------------------------------
 
-- Throw these guys in your Gemfile :test, & :development groups: 'rspec-rails', 'capybara', 'fabrication' & 'ffaker' for plausible nonsense.
+- Throw these guys in your Gemfile's :test, & :development groups: 'rspec-rails', 'capybara', 'fabrication' & 'ffaker' for plausible nonsense.
 - $ bundle
 - Execute `$ rails generate rspec:install` to add the spec directory and some skeleton files, including the 'rake spec' task.
 - To configure Rails 3 to produce fabricators when you generate models, add to your config/application.rb:
@@ -51,6 +51,7 @@ Tigthen that Loop with [Guard](https://github.com/guard/guard/)
 - Generate an empty Guardfile with `$ bundle exec guard init rspec`
 - [Optional: install growlnotify & gem 'growl']
 - Always run guard with `$ bundle exec guard`
+- Caution: Guard will, by default, watch for files that don't, by default, exist.
 
 
 Let [Devise](https://github.com/plataformatec/devise/) & [CanCan](https://github.com/ryanb/cancan/) handle expected user behavior
