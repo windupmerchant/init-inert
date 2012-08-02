@@ -48,7 +48,7 @@ Use [Rspec](https://github.com/rspec/rspec-rails/), [Fabrication](https://github
 Tigthen that Loop with [Guard](https://github.com/guard/guard/)
 ----------------------------
 - Add gems 'guard' & 'guard-rspec' to your :development group, & $ bundle.
-- Generate an empty Guardfile with `$ bundle exec guard init rspec`
+- Generate an Rspec Guardfile with `$ bundle exec guard init rspec`
 - [Optional: install growlnotify & gem 'growl']
 - Always run guard with `$ bundle exec guard`
 - Caution: Guard will, by default, watch directories that don't, by default, exist.
@@ -78,3 +78,5 @@ Let [Devise](https://github.com/plataformatec/devise/) & [CanCan](https://github
 - Run `$ rails generate devise MODEL` to generate your first type of user.
 - Run `$ rake db:migrate`
 - Run `$ rails generate cancan:ability` AND then edit the resulting file so that it refers to your devise MODEL, and [grants it appropriate permissions](https://github.com/ryanb/cancan/wiki/defining-abilities).
+
+Cheat
