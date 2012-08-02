@@ -51,7 +51,7 @@ Tigthen that Loop with [Guard](https://github.com/guard/guard/)
 - Generate an empty Guardfile with `$ bundle exec guard init rspec`
 - [Optional: install growlnotify & gem 'growl']
 - Always run guard with `$ bundle exec guard`
-- Caution: Guard will, by default, watch for files that don't, by default, exist.
+- Caution: Guard will, by default, watch directories that don't, by default, exist.
 
 
 Let [Devise](https://github.com/plataformatec/devise/) & [CanCan](https://github.com/ryanb/cancan/) handle expected user behavior
