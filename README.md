@@ -29,7 +29,7 @@ Use Powder
 ----------
 
 
-### Initialize your Rails apps with [this](https://github.com/DomKM/sun_kink) for extra awesomeness. 
+## Initialize your Rails apps with [this](https://github.com/DomKM/sun_kink) for extra awesomeness. 
 
 
 Use [Rspec](https://github.com/rspec/rspec-rails/), [Fabrication](https://github.com/paulelliott/fabrication/) w/ [fFaker](http://faker.rubyforge.org/rdoc/) & [Capybara](https://github.com/jnicklas/capybara/) for solid TDD utility.
